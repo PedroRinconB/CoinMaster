@@ -1,0 +1,449 @@
+html,body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    scroll-behavior: smooth;
+}
+
+#contenedor {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    font-family: 'Fuente1', 'Fuente', Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Fuente';
+    src: url("../fonts/Fuente.ttf");
+}
+
+@font-face {
+    font-family: 'Fuente1';
+    src: url("../fonts/Futura\ Book\ Regular.otf");
+}
+
+@font-face {
+    font-family: 'FuenteB';
+    src: url("../fonts/CabinCondensed-Bold.ttf");
+}
+
+#encabezado {
+    width: 100%;
+    height: 420px;
+    background-image: url(../img/Xfinity_Mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+}
+
+.logo {
+    width: 450px;
+    height: 155px;
+    float: none;
+    margin-right: 10px;
+    line-height: 150px;
+    margin-top: 160px;
+    margin-left: 15px;
+}
+
+header {
+    width: 100%;
+    background: black;
+    position: fixed;
+}
+
+#btn-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgb(94, 90, 90)
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    font-family: 'Fuente', Arial, Helvetica, sans-serif;
+}
+
+.menu li {
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.menu li:hover {
+    background-color: #303242;
+}
+
+.justificada {
+    text-align: justify;
+    }
+
+.centrada {
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
+    color: #CA171E;
+    font-size: 45px;
+}
+
+.titulo1 {
+    font-size: 34px;
+}
+
+.tituloizq {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    padding-left: 25%;
+    padding-right: 5%
+}
+
+.parrafo {
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 2%;
+    display: table;
+}
+
+.parrafo1 {
+font-size: 24px;
+text-align: center;
+}
+
+.parrafo2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.parrafo3 {
+    font-size: 24px;
+    text-align: center;
+    display: table;
+}
+
+.imagen {
+    width: 300px;
+height: 400px;
+float: left;
+margin-right:15px;
+line-height: 150px;
+margin-top: 21px;
+margin-left: 15px;
+}
+
+#inicio {
+    padding: 20px;
+}
+
+
+form {
+    width: 950px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 40px;
+    box-sizing: border-box;
+    margin-top: 2%;
+    border-radius: 8px;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: #0272B6;
+    color: white;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+#servicios {
+    height: 760px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 2%;
+}
+
+#servicios img {
+    width: 14%;
+    display: block;
+    float: left;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 0%;
+}
+
+#servicios p {
+    width: 14%;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 0%;
+    display: block;
+    float: left;
+    font-size: 26px;
+}
+
+.parrafos {
+    width: 14%;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 0%;
+    display: block;
+    float: left;
+    font-size: 24px;
+}
+
+#television {
+    width: 100%;
+    height: 928px;
+    background-color: white;
+    padding-top: 2%;
+}
+
+#television img {
+    float: right;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-left: 2%;
+    width: 50%;
+}
+
+#x1 {
+    width: 100%;
+    height: 650px;
+    background-color: #1F232E;
+    color: white;
+}
+
+#internet {
+    width: 100%;
+    height: 778px;
+    background-color: white;
+   padding-top: 2%;
+}
+
+#internet img {
+    width: 7%;
+    display: block;
+    float: left;
+    padding-top: 3%;
+    padding-left: 14%;
+    padding-right: 0%;
+}
+
+#movil {
+    width: 100%;
+    height: 778px;
+    background-color: white;
+    padding-top: 2%;
+}
+
+#contacto {
+    width: 100%;
+    padding-top: 2%;
+    height: 200px;
+}
+
+.parrafoi {
+    width: 8%;
+    text-align: center;
+    padding-top: 0%;
+    padding-left: 13%;
+    padding-right: 0%;
+    display: block;
+    float: left;
+    font-size: 26px;
+}
+#mapa {
+    height: 350px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+#arriba img {
+    width: 48px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
+#btn-mas{
+    display: none;
+}
+
+.container {
+    position: fixed;
+    bottom: 400px;
+    left: 20px;
+}
+
+.redes a, .icon-mas2{
+    display: block;
+    text-decoration: none;
+
+}
+
+@font-face {
+    font-family: "social";
+    src: url("../fonts/Social_Shapes.ttf");
+  }
+
+.social{
+    font-family: 'social','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+.social1{
+    font-family: 'social','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    color: #CA171E;
+}
+
+#pie {
+        width:100%;
+        height: 80px;
+        background-color:black;
+        text-align: center;
+        padding-top:8px;
+        color:white;
+        float: none;
+        margin-top: 5px;
+}
+
+@media (max-width:1160px) {
+
+    #servicios {
+        height: 320px;
+    }
+
+    #servicios p {
+        display: none;
+    }
+
+    #internet img {
+        width: 10%;
+        padding-left: 12%;
+    }
+
+    .parrafoi {
+        font-size: 14px;
+        padding-left: 12%;
+        text-align: center;
+        padding-right: 1.5%;
+    }
+
+    .parrafo2 {
+        display: none;
+    }
+
+    .parrafo3 {
+        display: none;
+    }
+
+    .imagen {
+        float: none;
+        width: 30%;
+        height: auto;
+    }
+
+    #television img {
+        display: none;
+    }
+
+    #x1 {
+        display: none;
+    }
+
+    #television {
+        height: 420px;
+    }
+
+    #internet {
+        height: 570px;
+    }
+
+    #movil {
+        height: 800px;
+    }
+
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        background: black;
+        width: 50%;
+        margin-left: -50%;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        border-top: 1px solid white;
+    }
+
+    #btn-menu:checked~.menu {
+        margin: 0;
+        position: fixed;
+        transition: all 0.5s;
+    }
+}
+
+@media (max-width:970px) {
+    form{
+        width: 100%;
+        padding: auto;
+    }
+}
