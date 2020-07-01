@@ -9,6 +9,7 @@ html,body {
     height: 100%;
     margin: 0 0 0 0;
     font-family: 'Fuente1', 'Fuente', Arial, Helvetica, sans-serif;
+    color: #253137;
 }
 
 @font-face {
@@ -28,27 +29,28 @@ html,body {
 
 #encabezado {
     width: 100%;
-    height: 420px;
-    background-image: url(../img/Xfinity_Mobile.jpg);
+    height: 10%;
+    background-image: url(../img/banner.jpg); 
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
     background-color: white;
 }
 
 .logo {
-    width: 450px;
-    height: 155px;
+    width: 30%;
+    height: auto;
     float: none;
     margin-right: 10px;
     line-height: 150px;
-    margin-top: 160px;
+    margin-top: 70px;
     margin-left: 15px;
 }
 
 header {
     width: 100%;
-    background: black;
+    background: #253137;
     position: fixed;
 }
 
@@ -93,7 +95,7 @@ header label:hover {
 }
 
 .menu li:hover {
-    background-color: #303242;
+    background-color: #E68722;
 }
 
 .justificada {
@@ -106,20 +108,31 @@ header label:hover {
 
 .titulo {
     font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
-    color: #CA171E;
+    color: #ff9a04;
     font-size: 45px;
+    font-weight: bold;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    -webkit-text-stroke: 2px black;
 }
 
 .titulo1 {
     font-size: 34px;
+    font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
+    color: #ff9a04;
+    -webkit-text-stroke: 1px black;
 }
 
-.tituloizq {
-    font-size: 30px;
+.titulo3 {
+    font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
+    color: #ff9a04;
+    font-size: 45px;
     font-weight: bold;
-    float: left;
-    padding-left: 25%;
-    padding-right: 5%
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+    -webkit-text-stroke: 2px black;
 }
 
 .parrafo {
@@ -128,7 +141,12 @@ header label:hover {
     padding-left: 2%;
     padding-right: 2%;
     margin-bottom: 2%;
-    display: table;
+    
+}
+
+.parrafo6 {
+    font-size: 24px;
+display: table;
 }
 
 .parrafo1 {
@@ -139,12 +157,28 @@ text-align: center;
 .parrafo2 {
     font-size: 24px;
     text-align: center;
+    display: table;
+    color: #fff;
 }
 
 .parrafo3 {
     font-size: 24px;
     text-align: center;
     display: table;
+}
+
+.parrafo4 {
+    font-size: 26px;
+text-align: center;
+color: orange;
+-webkit-text-stroke: 0.7px black;
+}
+
+.parrafo5 {
+    font-size: 26px;
+    text-align: center;
+    color: orange;
+    -webkit-text-stroke: 0.7px black;
 }
 
 .imagen {
@@ -159,6 +193,7 @@ margin-left: 15px;
 
 #inicio {
     padding: 20px;
+    height: auto;
 }
 
 
@@ -188,7 +223,7 @@ input,textarea {
 }
 
 #boton {
-    background: #0272B6;
+    background: #E68722;
     color: white;
     padding: 20px;
 }
@@ -197,32 +232,12 @@ input,textarea {
     cursor: pointer;
 }
 
-#servicios {
+#historia {
     height: 760px;
-    width: 100%;
+    width: 96%;
     text-align: center;
     background-color: #fff;
-    padding-top: 2%;
-}
-
-#servicios img {
-    width: 14%;
-    display: block;
-    float: left;
-    padding-top: 3%;
-    padding-left: 15%;
-    padding-right: 0%;
-}
-
-#servicios p {
-    width: 14%;
-    text-align: center;
-    padding-top: 2%;
-    padding-left: 15%;
-    padding-right: 0%;
-    display: block;
-    float: left;
-    font-size: 26px;
+    padding: 2%;
 }
 
 .parrafos {
@@ -236,50 +251,41 @@ input,textarea {
     font-size: 24px;
 }
 
-#television {
-    width: 100%;
-    height: 928px;
+#comunes {
+    width: 96%;
+    height: auto;
     background-color: white;
-    padding-top: 2%;
+    padding: 2%;
 }
 
-#television img {
-    float: right;
-    padding-top: 2%;
-    padding-right: 4%;
-    padding-left: 2%;
-    width: 50%;
+#comunes h3 {
+    font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
+    color: #ff9a04;
+    font-size: 34px;
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    -webkit-text-stroke: 2px black;
 }
 
-#x1 {
-    width: 100%;
-    height: 650px;
-    background-color: #1F232E;
-    color: white;
+
+
+#legalidad {
+    width: 96%;
+    height: auto;
+    background-color: #0c3153;
+    padding: 2%;
 }
 
-#internet {
-    width: 100%;
-    height: 778px;
-    background-color: white;
-   padding-top: 2%;
-}
-
-#internet img {
-    width: 7%;
+#legalidad img {
+    width: 40%;
     display: block;
     float: left;
-    padding-top: 3%;
-    padding-left: 14%;
-    padding-right: 0%;
+    padding-top: 0%;
+    padding-right: 1%;
 }
 
-#movil {
-    width: 100%;
-    height: 778px;
-    background-color: white;
-    padding-top: 2%;
-}
 
 #contacto {
     width: 100%;
@@ -319,7 +325,7 @@ input,textarea {
 
 .container {
     position: fixed;
-    bottom: 400px;
+    bottom: 43%;
     left: 20px;
 }
 
@@ -345,13 +351,23 @@ input,textarea {
     font-family: 'social','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     text-decoration: none;
-    color: #CA171E;
+    color: #E68722;
 }
+
+.banner1 {
+    height: 100vh;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/desktop-1155613_1920.jpg");
+  }
+
 
 #pie {
         width:100%;
         height: 80px;
-        background-color:black;
+        background-color:#253137;
         text-align: center;
         padding-top:8px;
         color:white;
@@ -361,17 +377,20 @@ input,textarea {
 
 @media (max-width:1160px) {
 
-    #servicios {
-        height: 320px;
+    #historia {
+        height: 100%;
     }
 
-    #servicios p {
+    #legalidad img {
+        width: 70%;
+        float: none;
+        padding: 1.5%;
+        margin-left: 14%;
+        margin-bottom: 4%;
+    }
+
+    #legalidad2 {
         display: none;
-    }
-
-    #internet img {
-        width: 10%;
-        padding-left: 12%;
     }
 
     .parrafoi {
@@ -381,11 +400,11 @@ input,textarea {
         padding-right: 1.5%;
     }
 
-    .parrafo2 {
+    .parrafo3 {
         display: none;
     }
 
-    .parrafo3 {
+    .parrafo5 {
         display: none;
     }
 
@@ -395,24 +414,13 @@ input,textarea {
         height: auto;
     }
 
-    #television img {
+    #comunes2 {
         display: none;
     }
 
-    #x1 {
-        display: none;
-    }
-
-    #television {
-        height: 420px;
-    }
-
-    #internet {
-        height: 570px;
-    }
-
-    #movil {
-        height: 800px;
+    #comunes {
+        height: 100%;
+        width: auto;
     }
 
     header label {
@@ -421,7 +429,7 @@ input,textarea {
 
     .menu {
         position: fixed;
-        background: black;
+        background: #253137;
         width: 50%;
         margin-left: -50%;
     }
