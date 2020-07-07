@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     scroll-behavior: smooth;
@@ -30,7 +31,7 @@ html,body {
 #encabezado {
     width: 100%;
     height: 10%;
-    background-image: url(../img/banner.jpg); 
+    background-image: url(../img/banner.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,14 +101,14 @@ header label:hover {
 
 .justificada {
     text-align: justify;
-    }
+}
 
 .centrada {
     text-align: center;
 }
 
 .titulo {
-    font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
+    font-family: 'FuenteB', 'Fuente', Arial, Helvetica, sans-serif;
     color: #ff9a04;
     font-size: 45px;
     font-weight: bold;
@@ -119,13 +120,13 @@ header label:hover {
 
 .titulo1 {
     font-size: 34px;
-    font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
+    font-family: 'FuenteB', 'Fuente', Arial, Helvetica, sans-serif;
     color: #ff9a04;
     -webkit-text-stroke: 1px black;
 }
 
 .titulo3 {
-    font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
+    font-family: 'FuenteB', 'Fuente', Arial, Helvetica, sans-serif;
     color: #ff9a04;
     font-size: 45px;
     font-weight: bold;
@@ -136,7 +137,7 @@ header label:hover {
 }
 
 .titulo2 {
-    font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
+    font-family: 'FuenteB', 'Fuente', Arial, Helvetica, sans-serif;
     color: #ff9a04;
     font-size: 45px;
     font-weight: bold;
@@ -150,17 +151,17 @@ header label:hover {
     padding-left: 2%;
     padding-right: 2%;
     margin-bottom: 2%;
-    
+
 }
 
 .parrafo6 {
     font-size: 24px;
-display: table;
+    display: table;
 }
 
 .parrafo1 {
-font-size: 24px;
-text-align: center;
+    font-size: 24px;
+    text-align: center;
 }
 
 .parrafo2 {
@@ -178,9 +179,9 @@ text-align: center;
 
 .parrafo4 {
     font-size: 26px;
-text-align: center;
-color: orange;
--webkit-text-stroke: 0.7px black;
+    text-align: center;
+    color: orange;
+    -webkit-text-stroke: 0.7px black;
 }
 
 .parrafo5 {
@@ -192,12 +193,12 @@ color: orange;
 
 .imagen {
     width: 300px;
-height: 400px;
-float: left;
-margin-right:15px;
-line-height: 150px;
-margin-top: 21px;
-margin-left: 15px;
+    height: 400px;
+    float: left;
+    margin-right: 15px;
+    line-height: 150px;
+    margin-top: 21px;
+    margin-left: 15px;
 }
 
 #inicio {
@@ -216,7 +217,8 @@ form {
     border-radius: 8px;
 }
 
-input,textarea {
+input,
+textarea {
     width: 100%;
     padding: 7px;
     box-sizing: border-box;
@@ -268,7 +270,7 @@ input,textarea {
 }
 
 #comunes h3 {
-    font-family: 'FuenteB','Fuente', Arial, Helvetica, sans-serif;
+    font-family: 'FuenteB', 'Fuente', Arial, Helvetica, sans-serif;
     color: #ff9a04;
     font-size: 34px;
     font-weight: bold;
@@ -312,6 +314,7 @@ input,textarea {
     float: left;
     font-size: 26px;
 }
+
 #mapa {
     height: 350px;
     width: 100%;
@@ -319,7 +322,7 @@ input,textarea {
 }
 
 #arriba img {
-    width: 48px;
+    width: 65px;
     height: auto;
     position: fixed;
     bottom: 20px;
@@ -328,7 +331,7 @@ input,textarea {
     scroll-behavior: smooth;
 }
 
-#btn-mas{
+#btn-mas {
     display: none;
 }
 
@@ -338,7 +341,8 @@ input,textarea {
     left: 20px;
 }
 
-.redes a, .icon-mas2{
+.redes a,
+.icon-mas2 {
     display: block;
     text-decoration: none;
 
@@ -347,41 +351,56 @@ input,textarea {
 @font-face {
     font-family: "social";
     src: url("../fonts/Social_Shapes.ttf");
-  }
+}
 
-.social{
-    font-family: 'social','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.social {
+    font-family: 'social', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
     text-decoration: none;
     color: white;
 }
 
-.social1{
-    font-family: 'social','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 32px;
+.social1 {
+    font-family: 'social', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 53px;
     text-decoration: none;
     color: #E68722;
 }
 
 .banner1 {
-    height: 100vh;  
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../img/desktop-1155613_1920.jpg");
-  }
+}
+
+.publibanner {
+    width: 468px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.publicarta {
+    width: 120px;
+    height: 240px;
+    padding: 2%;
+    margin-left: 1%;
+    float: right;
+    border: 1px solid black;
+}
 
 
 #pie {
-        width:100%;
-        height: 80px;
-        background-color:#253137;
-        text-align: center;
-        padding-top:8px;
-        color:white;
-        float: none;
-        margin-top: 5px;
+    width: 100%;
+    height: 80px;
+    background-color: #253137;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    float: none;
+    margin-top: 5px;
 }
 
 @media (max-width:1160px) {
@@ -459,15 +478,15 @@ input,textarea {
 }
 
 @media (max-width:970px) {
-    form{
+    form {
         width: 100%;
         padding: auto;
     }
 
-@media (max-width: 700px) {
-    .titulo2 {
-        font-size: 36px;
-        -webkit-text-stroke: 1.5px black;
+    @media (max-width: 700px) {
+        .titulo2 {
+            font-size: 36px;
+            -webkit-text-stroke: 1.5px black;
+        }
     }
-}
 }
