@@ -380,6 +380,7 @@ textarea {
     width: 468px;
     height: 60px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .publicarta {
@@ -389,6 +390,7 @@ textarea {
     margin-left: 1%;
     float: right;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 
