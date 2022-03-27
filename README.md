@@ -1,4 +1,4 @@
-# LaLiga Santander Website
+# CoinMaster
 
 CoinMaster is a website that provides information on digital currencies and the blockchain technology. It's the third assignment of the multimedia and web design subject of my university degree.
 
